@@ -1,0 +1,9 @@
+body {
+    background-image: url('../../public/assets/varios/library_hero.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el área visible */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
+    margin: 0; /* Elimina los márgenes por defecto */
+    height: 200vh; /* Asegura que el body ocupe toda la altura de la ventana */
+}

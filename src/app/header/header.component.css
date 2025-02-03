@@ -1,3 +1,57 @@
 .logo {
-    max-width: 120px;
+    max-width: 200px;
+}
+
+nav {
+    background-image: url('../../../public/assets/varios/library_hero.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el área visible */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: white; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 10px 0; /* Espaciado vertical */
+}
+
+/* Estilo para los elementos del navbar */
+.navbar .nav-link {
+    background-color: #d7d7d7d2; /* Fondo claro al pasar el ratón sobre los enlaces */
+    color: #333; /* Color de texto oscuro para los enlaces */
+    padding: 8px 16px; /* Espaciado en los enlaces */
+    border-radius: 5px; /* Bordes redondeados en los enlaces */
+}
+
+.navbar .nav-link:hover {
+    background-color: #f1f1f1; /* Fondo claro al pasar el ratón sobre los enlaces */
+    color: #000; /* Color de texto más oscuro */
+}
+
+/* Estilo para el logo */
+.navbar .navbar-brand img {
+    max-height: 50px; /* Limitar la altura del logo */
+}
+
+/* Estilo para el botón de carrito */
+.navbar .btn-outline-dark {
+    border-radius: 50px; /* Bordes redondeados en el botón */
+    padding: 8px 20px; /* Espaciado dentro del botón */
+}
+
+/* Estilo para el header */
+header.bg-dark {
+    border-radius: 10px; /* Bordes redondeados para el header */
+    background-color: #343a40; /* Fondo oscuro para el header */
+}
+
+header.bg-dark .text-white {
+    color: #fff; /* Color de texto blanco */
+}
+
+.nav-item{
+    margin-right: 10px;
 }
